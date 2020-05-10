@@ -1,0 +1,72 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/Users/george/StudioProjects/AndroidNDKSample",
+      "sdkFolder": "/Users/george/Library/Android/sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/Users/george/StudioProjects/AndroidNDKSample/app/build/intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "/Users/george/StudioProjects/AndroidNDKSample/app",
+      "makeFile": "/Users/george/StudioProjects/AndroidNDKSample/app/src/main/cpp/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "/Users/george/StudioProjects/AndroidNDKSample/.cxx",
+      "cxxFolder": "/Users/george/StudioProjects/AndroidNDKSample/app/.cxx",
+      "ndkFolder": "/Users/george/Library/Android/sdk/ndk/21.1.6352462",
+      "ndkVersion": "21.1.6352462",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [
+      ""
+    ],
+    "variantName": "debug",
+    "soFolder": "/Users/george/StudioProjects/AndroidNDKSample/app/build/intermediates/cmake/debug/lib",
+    "objFolder": "/Users/george/StudioProjects/AndroidNDKSample/app/build/intermediates/cmake/debug/obj",
+    "jsonFolder": "/Users/george/StudioProjects/AndroidNDKSample/app/.cxx/cmake/debug",
+    "gradleBuildOutputFolder": "/Users/george/StudioProjects/AndroidNDKSample/app/.cxx/cxx/debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARM64_V8A",
+  "abiPlatformVersion": 16,
+  "cxxBuildFolder": "/Users/george/StudioProjects/AndroidNDKSample/app/.cxx/cmake/debug/arm64-v8a",
+  "jsonFile": "/Users/george/StudioProjects/AndroidNDKSample/app/.cxx/cmake/debug/arm64-v8a/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/Users/george/StudioProjects/AndroidNDKSample/app/.cxx/cxx/debug/arm64-v8a",
+  "objFolder": "/Users/george/StudioProjects/AndroidNDKSample/app/build/intermediates/cmake/debug/obj/arm64-v8a",
+  "buildCommandFile": "/Users/george/StudioProjects/AndroidNDKSample/app/.cxx/cmake/debug/arm64-v8a/build_command.txt",
+  "buildOutputFile": "/Users/george/StudioProjects/AndroidNDKSample/app/.cxx/cmake/debug/arm64-v8a/build_output.txt",
+  "modelOutputFile": "/Users/george/StudioProjects/AndroidNDKSample/app/.cxx/cmake/debug/arm64-v8a/build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "/Users/george/StudioProjects/AndroidNDKSample/app/.cxx/cxx/debug/arm64-v8a/CMakeLists.txt",
+    "toolchainWrapperFile": "/Users/george/StudioProjects/AndroidNDKSample/app/.cxx/cxx/debug/arm64-v8a/android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "/Users/george/StudioProjects/AndroidNDKSample/app/.cxx/cxx/debug/arm64-v8a/build_generation_state.json",
+    "cacheKeyFile": "/Users/george/StudioProjects/AndroidNDKSample/app/.cxx/cxx/debug/arm64-v8a/compiler_cache_key.json",
+    "compilerCacheUseFile": "/Users/george/StudioProjects/AndroidNDKSample/app/.cxx/cxx/debug/arm64-v8a/compiler_cache_use.json",
+    "compilerCacheWriteFile": "/Users/george/StudioProjects/AndroidNDKSample/app/.cxx/cxx/debug/arm64-v8a/compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "/Users/george/StudioProjects/AndroidNDKSample/app/.cxx/cxx/debug/arm64-v8a/compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "/Users/george/StudioProjects/AndroidNDKSample/app/.cxx/cmake/debug/arm64-v8a/json_generation_record.json",
+  "compileCommandsJsonFile": "/Users/george/StudioProjects/AndroidNDKSample/app/.cxx/cmake/debug/arm64-v8a/compile_commands.json"
+}
