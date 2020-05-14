@@ -23,3 +23,11 @@ Java_com_qw_androidndksample_MainActivity_test1(JNIEnv *env,
     __android_log_print(1, "TEST", "int:%d", age);
 
 }
+
+extern "C"
+JNIEXPORT jstring JNICALL
+Java_com_qw_androidndksample_MainActivity_javaToNativeString(JNIEnv *env, jobject thiz, jint a,
+                                                             jstring b) {
+    char *second = (char*) (env->GetStringUTFChars(b, JNI_FALSE));
+    return env->NewStringUTF(second);
+}

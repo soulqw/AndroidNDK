@@ -1,19 +1,19 @@
 {
   "buildFiles": [
-    "/Users/george/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
-    "/Users/george/Library/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake",
-    "/Users/george/StudioProjects/AndroidNDKSample/app/src/main/cpp/CMakeLists.txt"
+    "/Users/eleme/Library/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake",
+    "/Users/eleme/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/Users/eleme/StudioProjects/AndroidNDK/app/src/main/cpp/CMakeLists.txt"
   ],
   "cleanCommands": [
-    "/Users/george/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/george/StudioProjects/AndroidNDKSample/app/.cxx/cmake/debug/x86\" clean"
+    "/Users/eleme/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/eleme/StudioProjects/AndroidNDK/app/.cxx/cmake/debug/x86\" clean"
   ],
-  "buildTargetsCommand": "/Users/george/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/george/StudioProjects/AndroidNDKSample/app/.cxx/cmake/debug/x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "buildTargetsCommand": "/Users/eleme/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/eleme/StudioProjects/AndroidNDK/app/.cxx/cmake/debug/x86\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "native-lib-Debug-x86": {
       "artifactName": "native-lib",
-      "buildCommand": "/Users/george/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/george/StudioProjects/AndroidNDKSample/app/.cxx/cmake/debug/x86\" native-lib",
+      "buildCommand": "/Users/eleme/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/eleme/StudioProjects/AndroidNDK/app/.cxx/cmake/debug/x86\" native-lib",
       "abi": "x86",
-      "output": "/Users/george/StudioProjects/AndroidNDKSample/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so"
+      "output": "/Users/eleme/StudioProjects/AndroidNDK/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so"
     }
   }
 }

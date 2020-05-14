@@ -1,20 +1,20 @@
-Executable : /Users/george/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake
+Executable : /Users/eleme/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake
 arguments : 
--H/Users/george/StudioProjects/AndroidNDKSample/app/src/main/cpp
--B/Users/george/StudioProjects/AndroidNDKSample/app/.cxx/cmake/debug/arm64-v8a
+-H/Users/eleme/StudioProjects/AndroidNDK/app/src/main/cpp
+-B/Users/eleme/StudioProjects/AndroidNDK/app/.cxx/cmake/debug/arm64-v8a
 -DANDROID_ABI=arm64-v8a
 -DANDROID_PLATFORM=android-16
--DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/george/StudioProjects/AndroidNDKSample/app/build/intermediates/cmake/debug/obj/arm64-v8a
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/eleme/StudioProjects/AndroidNDK/app/build/intermediates/cmake/debug/obj/arm64-v8a
 -DCMAKE_BUILD_TYPE=Debug
--DANDROID_NDK=/Users/george/Library/Android/sdk/ndk/21.1.6352462
+-DANDROID_NDK=/Users/eleme/Library/Android/sdk/ndk/21.1.6352462
 -DCMAKE_CXX_FLAGS=
 -DCMAKE_SYSTEM_NAME=Android
 -DCMAKE_ANDROID_ARCH_ABI=arm64-v8a
 -DCMAKE_SYSTEM_VERSION=16
 -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
--DCMAKE_ANDROID_NDK=/Users/george/Library/Android/sdk/ndk/21.1.6352462
--DCMAKE_TOOLCHAIN_FILE=/Users/george/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake
+-DCMAKE_ANDROID_NDK=/Users/eleme/Library/Android/sdk/ndk/21.1.6352462
+-DCMAKE_TOOLCHAIN_FILE=/Users/eleme/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake
 -G Ninja
--DCMAKE_MAKE_PROGRAM=/Users/george/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
+-DCMAKE_MAKE_PROGRAM=/Users/eleme/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
 jvmArgs : 
 

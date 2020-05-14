@@ -1,38 +1,38 @@
 {
   "stringTable": {
-    "0": "/Users/george/StudioProjects/AndroidNDKSample/app/.cxx/cmake/debug/armeabi-v7a",
-    "1": "--target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/george/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/george/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_lib_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
+    "0": "/Users/eleme/StudioProjects/AndroidNDK/app/.cxx/cmake/debug/armeabi-v7a",
+    "1": "--target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/eleme/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/eleme/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_lib_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
   },
   "buildFiles": [
-    "/Users/george/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
-    "/Users/george/Library/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake",
-    "/Users/george/StudioProjects/AndroidNDKSample/app/src/main/cpp/CMakeLists.txt"
+    "/Users/eleme/Library/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake",
+    "/Users/eleme/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/Users/eleme/StudioProjects/AndroidNDK/app/src/main/cpp/CMakeLists.txt"
   ],
   "cleanCommands": [
-    "/Users/george/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/george/StudioProjects/AndroidNDKSample/app/.cxx/cmake/debug/armeabi-v7a\" clean"
+    "/Users/eleme/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/eleme/StudioProjects/AndroidNDK/app/.cxx/cmake/debug/armeabi-v7a\" clean"
   ],
-  "buildTargetsCommand": "/Users/george/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/george/StudioProjects/AndroidNDKSample/app/.cxx/cmake/debug/armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "buildTargetsCommand": "/Users/eleme/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/eleme/StudioProjects/AndroidNDK/app/.cxx/cmake/debug/armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "native-lib-Debug-armeabi-v7a": {
-      "buildCommand": "/Users/george/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/george/StudioProjects/AndroidNDKSample/app/.cxx/cmake/debug/armeabi-v7a\" native-lib",
+      "buildCommand": "/Users/eleme/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/eleme/StudioProjects/AndroidNDK/app/.cxx/cmake/debug/armeabi-v7a\" native-lib",
       "buildType": "debug",
-      "toolchain": "4260306674",
+      "toolchain": "2410578087",
       "abi": "armeabi-v7a",
       "artifactName": "native-lib",
       "files": [
         {
-          "src": "/Users/george/StudioProjects/AndroidNDKSample/app/src/main/cpp/native-lib.cpp",
+          "src": "/Users/eleme/StudioProjects/AndroidNDK/app/src/main/cpp/native-lib.cpp",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         }
       ],
       "headers": [],
-      "output": "/Users/george/StudioProjects/AndroidNDKSample/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so"
+      "output": "/Users/eleme/StudioProjects/AndroidNDK/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so"
     }
   },
   "toolchains": {
-    "4260306674": {
-      "cppCompilerExecutable": "/Users/george/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    "2410578087": {
+      "cppCompilerExecutable": "/Users/eleme/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
     }
   },
   "cFileExtensions": [],

@@ -1,9 +1,7 @@
 # ninja log v5
-0	311	1589086091	CMakeFiles/native-lib.dir/native-lib.cpp.o	41d8c9d5f3c9f88c
-312	356	1589086091	/Users/george/StudioProjects/AndroidNDKSample/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so	48e9792f3c69a627
-1	449	1589091734	CMakeFiles/native-lib.dir/native-lib.cpp.o	41d8c9d5f3c9f88c
-450	479	1589091734	/Users/george/StudioProjects/AndroidNDKSample/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so	48e9792f3c69a627
-1	431	1589092082	CMakeFiles/native-lib.dir/native-lib.cpp.o	41d8c9d5f3c9f88c
-432	462	1589092082	/Users/george/StudioProjects/AndroidNDKSample/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so	48e9792f3c69a627
-1	436	1589092137	CMakeFiles/native-lib.dir/native-lib.cpp.o	41d8c9d5f3c9f88c
-436	467	1589092137	/Users/george/StudioProjects/AndroidNDKSample/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so	48e9792f3c69a627
+0	853	1589439785	CMakeFiles/native-lib.dir/native-lib.cpp.o	5b91c6261306b070
+854	952	1589439785	/Users/eleme/StudioProjects/AndroidNDK/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so	94d168b333b70cdc
+2	650	1589440290	CMakeFiles/native-lib.dir/native-lib.cpp.o	5b91c6261306b070
+650	729	1589440290	/Users/eleme/StudioProjects/AndroidNDK/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so	94d168b333b70cdc
+2	839	1589440345	CMakeFiles/native-lib.dir/native-lib.cpp.o	5b91c6261306b070
+839	915	1589440345	/Users/eleme/StudioProjects/AndroidNDK/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so	94d168b333b70cdc

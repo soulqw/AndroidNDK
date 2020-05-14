@@ -1,19 +1,19 @@
 {
   "buildFiles": [
-    "/Users/george/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
-    "/Users/george/Library/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake",
-    "/Users/george/StudioProjects/AndroidNDKSample/app/src/main/cpp/CMakeLists.txt"
+    "/Users/eleme/Library/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake",
+    "/Users/eleme/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/Users/eleme/StudioProjects/AndroidNDK/app/src/main/cpp/CMakeLists.txt"
   ],
   "cleanCommands": [
-    "/Users/george/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/george/StudioProjects/AndroidNDKSample/app/.cxx/cmake/debug/arm64-v8a\" clean"
+    "/Users/eleme/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/eleme/StudioProjects/AndroidNDK/app/.cxx/cmake/debug/arm64-v8a\" clean"
   ],
-  "buildTargetsCommand": "/Users/george/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/george/StudioProjects/AndroidNDKSample/app/.cxx/cmake/debug/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "buildTargetsCommand": "/Users/eleme/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/eleme/StudioProjects/AndroidNDK/app/.cxx/cmake/debug/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "native-lib-Debug-arm64-v8a": {
       "artifactName": "native-lib",
-      "buildCommand": "/Users/george/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/george/StudioProjects/AndroidNDKSample/app/.cxx/cmake/debug/arm64-v8a\" native-lib",
+      "buildCommand": "/Users/eleme/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/eleme/StudioProjects/AndroidNDK/app/.cxx/cmake/debug/arm64-v8a\" native-lib",
       "abi": "arm64-v8a",
-      "output": "/Users/george/StudioProjects/AndroidNDKSample/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so"
+      "output": "/Users/eleme/StudioProjects/AndroidNDK/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so"
     }
   }
 }

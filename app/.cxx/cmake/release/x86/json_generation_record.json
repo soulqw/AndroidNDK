@@ -5,15 +5,11 @@
   },
   {
     "level": "INFO",
-    "message": "rebuilding JSON /Users/george/StudioProjects/AndroidNDKSample/app/.cxx/cmake/release/x86/android_gradle_build.json due to:"
+    "message": "- CMake found from cmake.dir at \u0027/Users/eleme/Library/Android/sdk/cmake/3.10.2.4988404\u0027 had version \u00273.10.2\u0027"
   },
   {
     "level": "INFO",
-    "message": "- expected json /Users/george/StudioProjects/AndroidNDKSample/app/.cxx/cmake/release/x86/android_gradle_build.json file is not present, will remove stale json folder"
-  },
-  {
-    "level": "INFO",
-    "message": "- missing previous command file /Users/george/StudioProjects/AndroidNDKSample/app/.cxx/cmake/release/x86/build_command.txt, will remove stale json folder"
+    "message": "rebuilding JSON /Users/eleme/StudioProjects/AndroidNDK/app/.cxx/cmake/release/x86/android_gradle_build.json due to:"
   },
   {
     "level": "INFO",
@@ -21,15 +17,31 @@
   },
   {
     "level": "INFO",
-    "message": "removing stale contents from \u0027/Users/george/StudioProjects/AndroidNDKSample/app/.cxx/cmake/release/x86\u0027"
+    "message": "- a dependent build file changed"
   },
   {
     "level": "INFO",
-    "message": "created folder \u0027/Users/george/StudioProjects/AndroidNDKSample/app/.cxx/cmake/release/x86\u0027"
+    "message": "  - /Users/george/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake"
   },
   {
     "level": "INFO",
-    "message": "executing cmake Executable : /Users/george/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake\narguments : \n-H/Users/george/StudioProjects/AndroidNDKSample/app/src/main/cpp\n-B/Users/george/StudioProjects/AndroidNDKSample/app/.cxx/cmake/release/x86\n-DANDROID_ABI\u003dx86\n-DANDROID_PLATFORM\u003dandroid-16\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/george/StudioProjects/AndroidNDKSample/app/build/intermediates/cmake/release/obj/x86\n-DCMAKE_BUILD_TYPE\u003dRelease\n-DANDROID_NDK\u003d/Users/george/Library/Android/sdk/ndk/21.1.6352462\n-DCMAKE_CXX_FLAGS\u003d\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_ANDROID_ARCH_ABI\u003dx86\n-DCMAKE_SYSTEM_VERSION\u003d16\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_ANDROID_NDK\u003d/Users/george/Library/Android/sdk/ndk/21.1.6352462\n-DCMAKE_TOOLCHAIN_FILE\u003d/Users/george/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake\n-G Ninja\n-DCMAKE_MAKE_PROGRAM\u003d/Users/george/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja\njvmArgs : \n\n"
+    "message": "  - /Users/george/Library/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /Users/george/StudioProjects/AndroidNDKSample/app/src/main/cpp/CMakeLists.txt"
+  },
+  {
+    "level": "INFO",
+    "message": "removing stale contents from \u0027/Users/eleme/StudioProjects/AndroidNDK/app/.cxx/cmake/release/x86\u0027"
+  },
+  {
+    "level": "INFO",
+    "message": "created folder \u0027/Users/eleme/StudioProjects/AndroidNDK/app/.cxx/cmake/release/x86\u0027"
+  },
+  {
+    "level": "INFO",
+    "message": "executing cmake Executable : /Users/eleme/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake\narguments : \n-H/Users/eleme/StudioProjects/AndroidNDK/app/src/main/cpp\n-B/Users/eleme/StudioProjects/AndroidNDK/app/.cxx/cmake/release/x86\n-DANDROID_ABI\u003dx86\n-DANDROID_PLATFORM\u003dandroid-16\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/eleme/StudioProjects/AndroidNDK/app/build/intermediates/cmake/release/obj/x86\n-DCMAKE_BUILD_TYPE\u003dRelease\n-DANDROID_NDK\u003d/Users/eleme/Library/Android/sdk/ndk/21.1.6352462\n-DCMAKE_CXX_FLAGS\u003d\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_ANDROID_ARCH_ABI\u003dx86\n-DCMAKE_SYSTEM_VERSION\u003d16\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_ANDROID_NDK\u003d/Users/eleme/Library/Android/sdk/ndk/21.1.6352462\n-DCMAKE_TOOLCHAIN_FILE\u003d/Users/eleme/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake\n-G Ninja\n-DCMAKE_MAKE_PROGRAM\u003d/Users/eleme/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja\njvmArgs : \n\n"
   },
   {
     "level": "INFO",
@@ -37,11 +49,11 @@
   },
   {
     "level": "INFO",
-    "message": "write build output /Users/george/StudioProjects/AndroidNDKSample/app/.cxx/cmake/release/x86/build_output.txt"
+    "message": "write build output /Users/eleme/StudioProjects/AndroidNDK/app/.cxx/cmake/release/x86/build_output.txt"
   },
   {
     "level": "INFO",
-    "message": "write command file /Users/george/StudioProjects/AndroidNDKSample/app/.cxx/cmake/release/x86/build_command.txt"
+    "message": "write command file /Users/eleme/StudioProjects/AndroidNDK/app/.cxx/cmake/release/x86/build_command.txt"
   },
   {
     "level": "INFO",

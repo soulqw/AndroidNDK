@@ -3,6 +3,7 @@ package com.qw.androidndksample;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -21,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         TextView tv = findViewById(R.id.sample_text);
         tv.setText(stringFromJNI());
         test1(1);
+        Log.d("qw",javaToNativeString(18,"qinwei"));
     }
 
     /**
@@ -37,5 +39,13 @@ public class MainActivity extends AppCompatActivity {
      */
     public native void test1(
             int a);
+
+    /**
+     * test2 for java to native string
+     * @param a
+     * @param b
+     * @return
+     */
+    public native String javaToNativeString(int a,String b);
 
 }
